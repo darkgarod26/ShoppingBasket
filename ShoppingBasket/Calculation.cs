@@ -34,7 +34,6 @@ namespace ShoppingBasket
                 {
                     price = product.Price - (product.Price * 0.10);
                     result.Discounts.Add("Apples 10% off: -€0.10");
-
                 }
 
                 if (product.Name == "Bread")
@@ -59,9 +58,7 @@ namespace ShoppingBasket
                 result.TotalPrice = result.TotalPrice + price;
                 result.SubTotal = result.SubTotal + product.Price;
             }
-
             return result;
-
         }
     }
 }
