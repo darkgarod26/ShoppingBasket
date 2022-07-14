@@ -20,7 +20,7 @@ namespace ShoppingBasket
 
                 foreach (var discount in result.Discounts)
                 {
-                   Console.WriteLine(discount);
+                    Console.WriteLine(discount);
                 }
 
                 if (result.Discounts.Count == 0)

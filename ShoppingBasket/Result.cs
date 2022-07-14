@@ -6,7 +6,7 @@ namespace ShoppingBasket
 {
     public class Result
     {
-        public double TotalPrice {get; set;}
+        public double TotalPrice { get; set; }
 
         public double SubTotal { get; set; }
 
